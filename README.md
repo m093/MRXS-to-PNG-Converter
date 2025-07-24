@@ -1,4 +1,3 @@
-# Mo-Gorzin
 # MRXS to Cropped PNG Converter
 
 This Python script converts digital pathology MRXS files to high-resolution PNG images.  
