@@ -1,0 +1,6 @@
+```txt
+openslide-python
+Pillow
+numpy
+opencv-python
+tqdm
