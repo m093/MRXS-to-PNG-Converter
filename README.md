@@ -27,4 +27,12 @@ Install dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Notes:
+- You may need to install the OpenSlide native library (not just the Python package).
+
+- Consider changing 'png' to 'jpg' in img.save() if you want JPEG output instead of PNG, but for pathology/scientific images PNG is preferred for lossless quality.
+
+- The code chunk simulates reading progress with time.sleep(). For production, replace or remove this simulation if unnecessary.
 
